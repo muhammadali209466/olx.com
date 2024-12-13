@@ -1,0 +1,180 @@
+/* * {
+  font-family: "Roboto", sans-serif !important;
+} */
+.olxing {
+  align-items: center;
+  gap: 25px;
+  z-index: 2;
+  top: 0px;
+  position: sticky !important;
+  background-color: white;
+}
+.olxing h1 {
+  color: #002f34;
+  cursor: pointer;
+}
+
+.Motors a {
+  border: solid black 2px;
+  border-radius: 100%;
+  padding: 10px;
+  color: #696d6e;
+
+  background: rgb(214, 214, 214);
+  background: linear-gradient(
+    4deg,
+    rgba(214, 214, 214, 0.49) 13%,
+    rgba(230, 230, 230, 0.49) 64%
+  );
+}
+
+.motoring {
+  font-weight: 700;
+}
+.Motors a:hover {
+  color: #3a77ff;
+  background: rgb(199, 203, 203);
+  background: linear-gradient(
+    4deg,
+    rgba(199, 203, 203, 0.49) 15%,
+    rgba(206, 254, 255, 0.6756827731092436) 64%
+  );
+}
+.motoring:hover {
+  color: #3a77ff;
+}
+.current {
+  color: #3a77ff !important;
+}
+.azad {
+  width: 220px;
+  background-color: white !important;
+  color: black !important;
+}
+.kashmir {
+  height: 300px;
+  width: 220px;
+}
+.searching {
+  width: 500px;
+}
+
+.login {
+  text-decoration: underline;
+  font-size: 22px;
+}
+
+.login:hover {
+  text-decoration: none;
+}
+
+.use:hover {
+  background-color: #c8f8f6 !important;
+}
+
+.inputing {
+  outline: none !important;
+  border: solid 1px !important;
+  padding: 0px !important;
+  text-align: center;
+  box-sizing: border-box !important;
+}
+
+.inputing:hover {
+  border: solid 2px #23e5db !important;
+}
+
+.decorating {
+  position: relative;
+  position: sticky;
+  top: 60px;
+  background-color: white;
+  z-index: 1;
+}
+.selling {
+  position: absolute;
+  top: 44px;
+  left: 1000px;
+  cursor: pointer;
+}
+.decorating {
+  gap: 50px !important;
+}
+
+.location {
+  width: 250px !important;
+}
+.listi {
+  list-style-type: none;
+}
+.motorcycles:hover {
+  color: #00a49f !important;
+}
+.Allcategories {
+  cursor: pointer;
+}
+.fa-heart {
+  margin-left: 100px;
+}
+.rs {
+  font-weight: 700;
+}
+.daysago {
+  font-weight: 200;
+}
+.footing {
+  background-color: #f7f8f9;
+}
+.appstore {
+  align-self: center;
+  flex: 1;
+}
+.apping {
+  flex: 1;
+}
+li {
+  list-style-type: none;
+}
+.Dubizzle {
+  text-decoration: none;
+  color: rgba(0, 47, 52, 0.64);
+}
+.Dubizzle:hover {
+  color: black;
+}
+.Flats {
+  background-color: #ebeeef !important;
+  border: solid #ebeeef 2px;
+  height: 300px !important;
+}
+.folowing {
+  margin-top: 44px;
+  line-height: 30px;
+}
+.Folowing {
+  margin-left: 50px;
+}
+.Privacy {
+  margin-right: 50px;
+}
+.Classifieds {
+  background-color: #002f34;
+  height: 60px;
+  color: white;
+}
+.SELL {
+  font-weight: 700;
+  position: absolute;
+  top: 55px;
+  cursor: pointer;
+  right: 53px;
+}
+.loging {
+  flex: 1;
+}
+.addition {
+  position: absolute;
+  right: 95px;
+  top: 60px;
+  cursor: pointer;
+}
