@@ -178,3 +178,10 @@ li {
   top: 60px;
   cursor: pointer;
 }
+.hring{
+  width: 2px;
+  height: 150px;
+  background-color: black;
+  color: black;
+margin-right: 110px;
+}
