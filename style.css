@@ -5,8 +5,8 @@
   align-items: center;
   gap: 25px;
   z-index: 2;
-  top: 0px;
-  position: sticky !important;
+  /* top: 0px;
+  position: sticky !important; */
   background-color: white;
 }
 .olxing h1 {
@@ -86,8 +86,8 @@
 
 .decorating {
   position: relative;
-  position: sticky;
-  top: 60px;
+  /* position: sticky;
+  top: 60px; */
   background-color: white;
   z-index: 1;
 }
