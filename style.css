@@ -1,6 +1,9 @@
-/* * {
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
   font-family: "Roboto", sans-serif !important;
-} */
+}
 .olxing {
   align-items: center;
   gap: 25px;
@@ -178,10 +181,231 @@ li {
   top: 60px;
   cursor: pointer;
 }
-.hring{
+.hring {
   width: 2px;
   height: 150px;
   background-color: black;
   color: black;
-margin-right: 110px;
+  margin-right: 110px;
+}
+.category-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  grid-auto-flow: column;
+  gap: 20px;
+  padding-bottom: 15px;
+}
+.bike-grid {
+  grid-auto-flow: column;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 45px;
+  padding-bottom: 15px;
+}
+.Allcategories img {
+  margin: 0 auto;
+  display: block;
+}
+.car-grid {
+  grid-auto-flow: column;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 45px;
+  padding-bottom: 15px;
+}
+.house-grid {
+  grid-auto-flow: column;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 45px;
+  padding-bottom: 15px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .selling {
+    display: none;
+  }
+  .SELL {
+    display: none;
+  }
+  .addition {
+    display: none !important;
+  }
+  .searching {
+    margin: 0;
+    padding: 0;
+  }
+  .inputing {
+    width: 100% !important;
+    font-size: 15px !important;
+  }
+  .decorating {
+    gap: 0px !important;
+  }
+  .loging {
+    margin-left: 20px;
+  }
+  .navLinks {
+    display: flex !important;
+    gap: 0 !important;
+  }
+  .motorcycles {
+    font-size: 13px;
+  }
+  .category-grid {
+    grid-template-columns: repeat(5, 1fr);
+    grid-auto-flow: row;
+    overflow-x: unset;
+  }
+  .bike-grid {
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-flow: row;
+    overflow-x: unset;
+  }
+  .car-grid {
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-flow: row;
+    overflow-x: unset;
+  }
+  .house-grid {
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-flow: row;
+    overflow-x: unset;
+  }
+  .folowing h5 {
+    font-size: 18px;
+  }
+  .Dubizzle {
+    font-size: 18px;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .olxing {
+    margin-top: 20px;
+  }
+  .Motors span {
+    display: block;
+    margin-top: 10px;
+  }
+  .decorating {
+    gap: 10px !important;
+  }
+  .location button {
+    width: 100%;
+    font-size: 15px;
+  }
+  .kashmir {
+    width: 100px;
+    height: 250px;
+  }
+  .current {
+    font-size: 13px;
+  }
+  .kashmir li {
+    font-size: 13px;
+  }
+  .searching {
+    display: none !important;
+    width: 0;
+  }
+  .inputing {
+    width: 0;
+    display: none !important;
+  }
+  .iconix {
+    display: none !important;
+    width: 0;
+  }
+  .addition {
+    display: none !important;
+  }
+  .sells {
+    display: none;
+  }
+  .navLinks {
+    flex-wrap: wrap;
+  }
+
+  .navLinks li {
+    font-size: 15px;
+  }
+  .category-mobile {
+    margin-top: 20px !important;
+  }
+  .categoriesh1 h1 {
+    margin-bottom: 0px !important;
+  }
+  .category-grid {
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-flow: row;
+    overflow-x: unset;
+    margin-bottom: 0px !important;
+  }
+  .Services-container {
+    margin-top: 0px !important;
+  }
+  .category-mobile {
+    margin-bottom: 0px !important;
+  }
+  .bike-grid {
+    grid-template-columns: repeat(1, 1fr);
+    grid-auto-flow: row;
+    overflow-x: unset;
+  }
+  .car-grid {
+    grid-template-columns: repeat(1, 1fr);
+    grid-auto-flow: row;
+    overflow-x: unset;
+  }
+  .house-grid {
+    grid-template-columns: repeat(1, 1fr);
+    grid-auto-flow: row;
+    overflow-x: unset;
+  }
+  .footing {
+    flex-wrap: wrap-reverse;
+  }
+  .hring {
+    display: none;
+  }
+  .appstore {
+    margin-bottom: 20px;
+  }
+  .appstore img {
+    width: 90px;
+  }
+  .apping img {
+    width: 100%;
+    display: block;
+    height: auto;
+  }
+  .apping {
+    width: 100%;
+    flex: 0 0 100%;
+  }
+  .Flats {
+    flex-wrap: wrap;
+    height: auto !important;
+  }
+  .folowing h5 {
+    font-size: 15px;
+  }
+  .Dubizzle {
+    font-size: 13px;
+  }
+  .Privacy img {
+    margin-bottom: 20px !important;
+    margin-right: 2px;
+  }
+  .Privacy {
+    margin-right: 20px !important;
+  }
+  .Privacy h5 {
+    margin-right: 20px !important
+  ;
+  }
+  .Classifieds{
+    font-size: 12px !important;
+  }
 }
